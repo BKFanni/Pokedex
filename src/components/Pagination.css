@@ -1,0 +1,26 @@
+.PokeListButton {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .PokeListButton button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-family:cursive;
+    box-shadow: 0 0 20px rgba(6, 6, 6, 0.26);
+  }
+  
+  .PokeListButton button:hover {
+    background-color: #eee;
+  }
+
+  #rightButton{
+    float: right;
+
+  }

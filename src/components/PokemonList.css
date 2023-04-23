@@ -1,0 +1,36 @@
+.PokeList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .PokeList div {
+    width: calc(50% - 10px); /* subtract 10px for margin */
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #f5ff34;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    font-family:cursive;
+  }
+  
+  .PokeList div:hover {
+    box-shadow: 0 0 20px rgba(6, 6, 6, 0.26);
+  }
+  
+  .PokeList a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .PokeList a:hover {
+    color: #000;
+    background-color: #cdd52d;
+    border-radius: 10px;
+  }
+  
